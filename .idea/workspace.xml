@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="37c72e9d-64be-4fb6-ae03-7a75a83023c4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/buildspec.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samTemplate.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
     </list>
     <ignored path="serverlessLambda.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,17 +25,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            <state relative-caret-position="120">
+              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buildspec.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="buildspec.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/buildspec.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -67,8 +64,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/samTemplate.yaml" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/buildspec.yml" />
+        <option value="$PROJECT_DIR$/index.js" />
       </list>
     </option>
   </component>
@@ -227,12 +224,12 @@
       <option name="presentableId" value="Default" />
       <updated>1510048286547</updated>
       <workItem from="1510048292892" duration="208000" />
-      <workItem from="1510059057340" duration="1178000" />
+      <workItem from="1510059057340" duration="1306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1386000" />
+    <option name="totallyTimeSpent" value="1514000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="136" y="368" width="1916" height="1057" extended-state="0" />
@@ -288,18 +285,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/buildspec.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
           <folding />
         </state>
       </provider>
