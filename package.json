@@ -1,3 +1,8 @@
 {
-  "scripts":{"test": "mocha"}
+  "scripts":{"test": "mocha"},
+  "name": "my_package",
+  "version": "1.0.0",
+  "dependencies": {
+    "mocha": "^3.0.0"
+  }
 }
