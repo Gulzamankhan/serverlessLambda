@@ -3,11 +3,10 @@ phases:
   install:
     commands:
       - npm install time
+      - npm install mocha
+      - npm run test
       - aws cloudformation package --template-file samTemplate.yaml --s3-bucket devopsgul
                                    --output-template-file NewSamTemplate.yaml
-      - npm install
-      - npm run test
-
 artifacts:
   type: zip
   files:
