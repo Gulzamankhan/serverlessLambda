@@ -3,7 +3,6 @@ phases:
   install:
     commands:
       - npm install time
-      - npm run test
       - aws cloudformation package --template-file samTemplate.yaml --s3-bucket codepipeline-bucket-gmo 
                                    --output-template-file NewSamTemplate.yaml
 artifacts:
