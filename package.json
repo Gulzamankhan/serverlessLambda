@@ -1,5 +1,4 @@
 {
-  "scripts":{:},
   "name": "my_package",
   "version": "1.0.0",
   "dependencies": {
