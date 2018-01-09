@@ -6,6 +6,6 @@ exports.handler = (event, context, callback) => {
     currentTime.setTimezone("America/Los_Angeles");
     callback(null, {
         statusCode: '200',
-        body: 'GMO_RING_POC The time in Los Angeles is: ' + currentTime.toString(),
+        body: 'codepipeline GMO_RING_POC The time in Los Angeles is: ' + currentTime.toString(),
     });
 };
